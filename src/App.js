@@ -20,7 +20,7 @@ const App = () => {
     const token = await executeRecaptcha('submit');
     const timestamp = new Date().toUTCString();
     // You need to append the path of the endpoint you are calling to the KOR Connect base URI 
-    axios.post('https://netofelix145l.korconnect.io/PG-KOR-IBM/',
+    axios.post('https://rodrigo.free.beeceptor.com',
       {
         data: {
           'test':'test'
